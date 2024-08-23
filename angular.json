@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Furia-Fan-Page"
+    }
+  },
+  "defaultProject": "Furia-Fan-Page",
+  "cli": {
+    "analytics": "5b3297b8-8134-4060-91bf-1d35ca8c61b6"
+  }
 }

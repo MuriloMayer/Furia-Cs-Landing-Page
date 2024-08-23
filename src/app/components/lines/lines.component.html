@@ -1,1 +1,21 @@
-<p>lines works!</p>
+<div class="buttons">
+  <button (click)="changeLine('masc')" [class.active]="currentLine === 'masc'">Masculino</button>
+  <button (click)="changeLine('fem')" [class.active]="currentLine === 'fem'">Feminino</button>
+  <button (click)="changeLine('acad')" [class.active]="currentLine === 'acad'">Academy</button>
+</div>
+
+<div class="player-profiles">
+  <div class="profile" *ngFor="let player of players">
+    <img [src]="player.photo" alt="{{ player.name }}">
+    <h2>{{ player.firstName }} <br> <span>{{ player.nickname }}</span> <br> {{ player.lastName }}</h2>
+    <p>{{ player.role }}</p>
+    <a [href]="'https://instagram.com/' + player.username" target="_blank"><img src="assets/images/instagram.webp" style="width: 2%;"> | &#64;{{ player.username }}</a>
+  </div>
+</div>
+<div class="coach-profiles">
+  <div class="profile" *ngFor="let coach of coachs">
+    <h2>{{ coach.firstName }} <br> <span>{{ coach.nickname }}</span> <br> {{ coach.lastName }}</h2>
+    <p>{{ coach.role }}</p>
+    <a [href]="'https://instagram.com/' + coach.username" target="_blank"><img src="assets/images/instagram.webp" style="width: 2%;"> | {{ coach.username }} </a>
+  </div>
+</div>
