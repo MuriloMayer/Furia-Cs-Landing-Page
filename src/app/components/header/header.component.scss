@@ -1,0 +1,44 @@
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .logo {
+    display: flex;
+    flex-shrink: 0;
+    justify-content: flex-start;
+    img {
+      width: 60px;
+      height: auto;
+    }
+  }
+
+  .nav {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+
+      li {
+        a {
+          font-family: 'Roboto Condensed', sans-serif;
+          text-decoration: none;
+          font-size: 14px;
+          letter-spacing: 1px;
+          padding: 4px 8px;
+          border-radius: 5px;
+          cursor: pointer;
+
+          &:hover {
+            background-color: #dedede;
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}
