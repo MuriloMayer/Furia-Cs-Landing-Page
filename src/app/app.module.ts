@@ -4,12 +4,14 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { LinesComponent } from './components/lines/lines.component';
+import { HomeComponent } from './components/home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    LinesComponent
+    LinesComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule

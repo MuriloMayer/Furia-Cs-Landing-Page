@@ -25,9 +25,9 @@ export class LinesComponent implements OnInit {
     players : [
     { firstName: 'Gabriel', lastName: 'Toledo',nickname : '"fallen"' , username: 'fallen', photo: 'assets/images/line-masc/fallen.webp', role: 'AWPer | IGL' },
     { firstName: 'Marcelo', lastName: 'Cespedes', nickname: '"chelo"', username: 'cheloking', photo: 'assets/images/line-masc/chello.webp', role: 'Entry Fragger' },
-    { firstName: 'Yuri Santos', lastName : 'Santos', nickname: '"yuurih"', username: 'yuurih', photo: 'assets/images/line-masc/yuurih.webp', role: 'Rifler' },
-    { firstName: 'Kaike Cerato', lastName: 'Cerato', nickname: '"KSCERATO"', username: 'kscerato', photo: 'assets/images/line-masc/kscerato.webp', role: 'Rifler' },
-    { firstName: 'Felipe Medeiros',lastName: 'Medeiros', nickname: '"skullz"', username: 'skullzcs', photo: 'assets/images/line-masc/skullz.webp', role: 'Rifler' },
+    { firstName: 'Yuri', lastName : 'Santos', nickname: '"yuurih"', username: 'yuurih', photo: 'assets/images/line-masc/yuurih.webp', role: 'Rifler' },
+    { firstName: 'Kaike', lastName: 'Cerato', nickname: '"KSCERATO"', username: 'kscerato', photo: 'assets/images/line-masc/kscerato.webp', role: 'Rifler' },
+    { firstName: 'Felipe',lastName: 'Medeiros', nickname: '"skullz"', username: 'skullzcs', photo: 'assets/images/line-masc/skullz.webp', role: 'Rifler' },
     ],
     coachs : [
       { firstName: 'Sid', lastName: 'Macedo', nickname: '"sidde"', username: 'siddecs', role: 'Coach' },

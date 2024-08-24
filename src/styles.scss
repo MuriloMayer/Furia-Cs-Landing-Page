@@ -2,6 +2,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400&display=swap');
 
 body {
+  $primary-color : white !global;
+  $secundary-color : black !global;
+  $terciary-color : #bc9b40 !global;
+  $hover-button-bg-color: #bc9b40!global;
+
+
   font-family: 'Courier Prime', monospace;
+  color: white;
   margin: 0;
+  background-color: black;
+}
+.content {
+  margin-top: 60px;
 }

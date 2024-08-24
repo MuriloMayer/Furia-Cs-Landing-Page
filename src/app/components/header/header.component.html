@@ -1,13 +1,13 @@
-<header class="main-header">
+<header class="main-header" [class.hidden]="!headerVisible">
   <div class="logo">
     <img src="assets/images/logoFuria-400x400.png" alt="Furia">
   </div>
   <nav class="nav">
     <ul>
-      <li><a href="#" (click)="scrollTo('home')">HOME</a></li>
-      <li><a href="#" (click)="scrollTo('agenda')">AGENDA</a></li>
-      <li><a href="#" (click)="scrollTo('noticias')">NOTÍCIAS</a></li>
-      <li><a href="#" (click)="scrollTo('lines')">LINES</a></li>
+      <li><a href="#" (click)="scrollTo('home')" [class.active]="currentCategory === 'home'">HOME</a></li>
+      <li><a href="#" (click)="scrollTo('agenda')" [class.active]="currentCategory === 'agenda'">AGENDA</a></li>
+      <li><a href="#" (click)="scrollTo('noticias')" [class.active]="currentCategory === 'noticias'">NOTÍCIAS</a></li>
+      <li><a href="#" (click)="scrollTo('lines')" [class.active]="currentCategory === 'lines'">LINES</a></li>
     </ul>
   </nav>
 </header>

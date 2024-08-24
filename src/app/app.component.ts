@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Host, HostListener } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +6,17 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'Furia-Fan-Page';
+  headerVisible : boolean = true;
+  lastScroll = 0;
+
+  @HostListener('window:scroll', ['$event'])
+  onWindowScroll(e) {
+    if (window.scrollY > this.lastScroll) {
+      this.headerVisible = false;
+    } else {
+      this.headerVisible = true;
+    }
+    this.lastScroll = window.scrollY;
+  }
+
 }
