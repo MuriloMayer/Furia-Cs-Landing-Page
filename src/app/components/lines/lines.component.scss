@@ -5,23 +5,25 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+
+  min-height: 100vh;
 }
 
 .header {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
   h1 {
-    font-size: 2rem;
-    margin: 0;
-  }
-  h2 {
-    margin: 1.5vh;
+    font-size: 5vh;
+    margin: 5vh;
+    padding-top: 5vh;
   }
   .buttons {
     display: flex;
     gap: 10px;
-    margin-right: 1.5vh;
+    margin: 5vh;
+
     button {
       display: inline-block;
       font-family: 'Roboto Condensed', sans-serif;
@@ -57,10 +59,10 @@ body {
   flex-wrap: wrap;
   .profile {
     text-align: center;
-    margin: 0px 20px 50px 20px;
+    margin: 0 1vh 5vh 1vh;
     h2 {
       font-weight: normal;
-      font-size: 1.5rem;
+      font-size: 2.5vh;
       margin: 0;
       span {
         color: #BC9A40;
@@ -73,17 +75,18 @@ body {
       text-decoration: none;
       color: $terciary-color;
       text-align: center;
+      font-size: 2.5vh;
     }
     p {
       margin: 3px;
     }
       #player-photo {
-        height: 150px;
+        height: 180px;
         width: auto;
       }
 
       #mini-logo {
-        width: 20px;
+        width: 25px;
         height: auto;
         }
       }

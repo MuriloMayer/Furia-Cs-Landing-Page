@@ -1,16 +1,17 @@
 @import 'src/styles.scss';
 
 .home {
+  min-height: 100vh;
+
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   text-align: center;
-  margin-bottom: 100vh;
 
-  h1 {
+ h1 {
     font-size: 3.5vh;
-    margin: 15vh auto 10vh auto;
+    margin: 20vh auto 10vh auto;
     span {
       color: $terciary-color;
     }

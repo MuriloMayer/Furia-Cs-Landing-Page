@@ -1,0 +1,52 @@
+@import 'src/styles.scss';
+
+.news {
+  min-height: 100vh;
+
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    h2 {
+      font-size: 2.5vh;
+      margin: 0 0 1vh 0;
+      text-decoration: underline;
+
+    }
+    .subtitle p {
+      font-size: 2vh;
+      margin: 0;
+    }
+    .content p {
+      margin: 15vh 0 0 0;
+    }
+
+    .card {
+      text-align: center;
+      align-items: center;
+      margin: 5vh auto 0 auto;
+      max-width:95vh;
+
+
+
+    }
+    .tweet {
+      display: flex;
+      margin: auto;
+      justify-content: center;
+      align-items: center;
+      width: 354px;
+    }
+
+  }
+  h1 {
+    font-size: 5vh;
+    margin: 5vh;
+    padding-top: 5vh;
+  }
+
+
+}

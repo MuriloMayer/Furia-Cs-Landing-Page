@@ -1,0 +1,53 @@
+@import "src/styles.scss";
+
+
+  .schedule {
+    min-height: 100vh;
+    h1 {
+      font-size: 5vh;
+      margin: 5vh;
+      padding-top: 5vh;
+    }
+
+    .lines {
+      display: flex ;
+      flex-direction: row;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin-top: 10vh;
+      .line {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+      h2 {
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 2.5vh;
+        margin: 2.5vh 0;
+      }
+        .games {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+
+          h4 {
+            color: $terciary-color;
+            font-size: 3.5vh;
+            margin: 0 0 2vh 0;
+          }
+
+          .logo {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+          }
+        }
+      }
+  }
+  }
+
+img {
+  width: 10vh;
+  height: auto;
+}

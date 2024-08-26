@@ -1,0 +1,12 @@
+<div id="news" class="news">
+  <h1>Últimas Notícias</h1>
+  <div class="container" *ngFor="let new of news">
+    <div class="card">
+      <div class="title" [innerHTML]="new.title"> </div>
+        <div class="subtitle" [innerHTML]="new.subTitle">  </div>
+        <div class="content" [innerHTML]="new.content"></div>
+    </div>
+    <div class="tweet" [innerHTML]="new.tweetHTML">
+    </div>
+  </div>
+</div>

@@ -1,0 +1,17 @@
+<div class="schedule" id="schedule">
+  <h1>Próximos Jogos.</h1>
+  <div class="lines">
+    <div class="line" *ngFor="let line of lines">
+        <h2>{{line.name}}</h2>
+        <div class="games" *ngFor="let game of line.games">
+          <h4>{{ game.date | customDate}}</h4>
+          <div class="logo">
+            <img src="{{game.team1Logo}}" alt="{{game.team1}}">
+            <span>X</span>
+            <img src="{{game.team2Logo}}" alt="{{game.team2}}">
+          </div>
+          <p>{{game.event}}</p>
+        </div>
+      </div>
+  </div>
+  </div>
