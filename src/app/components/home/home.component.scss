@@ -1,0 +1,31 @@
+@import 'src/styles.scss';
+
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 100vh;
+
+  h1 {
+    font-size: 3.5vh;
+    margin: 15vh auto 10vh auto;
+    span {
+      color: $terciary-color;
+    }
+  }
+  h2 {
+    font-size: 4vh;
+    margin: 2vh;
+  }
+  h3 {
+    font-size: 4vh;
+    color: $terciary-color;
+    margin: 0;
+  }
+  h4 {
+    font-size: 4vh;
+    margin: 2vh;
+  }
+}

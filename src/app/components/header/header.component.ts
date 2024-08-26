@@ -26,9 +26,14 @@ export class HeaderComponent implements OnInit {
   }
 
   scrollTo(Getelement: string): void {
-    const element = document.querySelector(`#${Getelement}`);
+    const element = document.querySelector(`#${Getelement}`) as HTMLElement;
+    if (element) {
+      const pos = element.offsetTop;
 
-    element?.scrollIntoView({ behavior: 'smooth' });
-    this.currentCategory = Getelement;
+      window.scrollTo({
+        top: pos,
+        behavior: 'smooth'
+      });
+    }
   }
 }

@@ -15,9 +15,13 @@ body {
     font-size: 2rem;
     margin: 0;
   }
+  h2 {
+    margin: 1.5vh;
+  }
   .buttons {
     display: flex;
     gap: 10px;
+    margin-right: 1.5vh;
     button {
       display: inline-block;
       font-family: 'Roboto Condensed', sans-serif;
@@ -50,7 +54,7 @@ body {
   display: flex;
   justify-content: space-evenly;
   margin: auto;
-
+  flex-wrap: wrap;
   .profile {
     text-align: center;
     margin: 0px 20px 50px 20px;
