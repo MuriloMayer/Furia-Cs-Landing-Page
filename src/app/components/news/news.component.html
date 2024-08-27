@@ -1,12 +1,19 @@
 <div id="news" class="news">
   <h1>Últimas Notícias</h1>
-  <div class="container" *ngFor="let new of news">
-    <div class="card">
-      <div class="title" [innerHTML]="new.title"> </div>
-        <div class="subtitle" [innerHTML]="new.subTitle">  </div>
-        <div class="content" [innerHTML]="new.content"></div>
-    </div>
-    <div class="tweet" [innerHTML]="new.tweetHTML">
+  <div class="containers">
+    <div class="container" *ngFor="let new of news">
+        <div class="card">
+          <div class="title" >
+            <h2>{{new.title}}</h2>
+          </div>
+            <div class="subtitle">
+            <p>{{ new.subTitle }}</p>
+            </div>
+          <a href="{{new.link}}">Veja mais clicando aqui!</a>
+        </div>
+      <div class="tweet">
+        <img src="{{new.img}}" alt="Imagem Relacionada A Notícia">
+      </div>
     </div>
   </div>
 </div>
