@@ -52,11 +52,11 @@ export class BaseService {
   mascGames: game[] = [
     {
       team1: 'FURIA',
-      team2: '9Pandas',
-      date: new Date(2024, 7, 27, 7, 30, 0),
+      team2: 'Virtus.pro',
+      date: new Date(2024, 7, 28, 9, 30, 0),
       event: 'BetBoom Dacha',
       team1Logo: 'assets/images/logoFuria-400x400.png',
-      team2Logo: 'assets/images/9pandas.png',
+      team2Logo: 'assets/images/teamVP.svg',
     },
     {
       team1: 'FURIA',
