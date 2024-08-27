@@ -1,5 +1,5 @@
 <div id="news" class="news">
-  <h1>Últimas Notícias</h1>
+  <h1>Últimas <span>Notícias</span>.</h1>
   <div class="containers">
     <div class="container" *ngFor="let new of news">
         <div class="card">
@@ -9,7 +9,7 @@
             <div class="subtitle">
             <p>{{ new.subTitle }}</p>
             </div>
-          <a href="{{new.link}}">Veja mais clicando aqui!</a>
+          <a href="{{new.link}}" target="_blank">Veja mais clicando aqui!</a>
         </div>
       <div class="tweet">
         <img src="{{new.img}}" alt="Imagem Relacionada A Notícia">

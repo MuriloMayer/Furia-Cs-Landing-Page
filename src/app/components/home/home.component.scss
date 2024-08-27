@@ -1,7 +1,6 @@
 @import 'src/styles.scss';
 
 .home {
-  // min-height: 100vh;
 
   display: flex;
   flex-direction: column;
@@ -11,7 +10,7 @@
 
  h1 {
     font-size: 3.5vh;
-    margin: 20vh auto 10vh auto;
+    margin: 20vh 3vh 10vh 3vh;
     span {
       color: $terciary-color;
     }

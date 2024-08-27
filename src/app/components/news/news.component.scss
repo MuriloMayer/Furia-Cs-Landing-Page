@@ -9,7 +9,7 @@
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    margin: 10vh 10vh 0 10vh;
+    margin: 10vh 5vh 0 5vh;
   }
   .container {
     display: flex;
@@ -53,6 +53,9 @@
     font-size: 5vh;
     margin: 5vh;
     padding-top: 5vh;
+    span {
+      color: $terciary-color;
+    }
   }
 
 

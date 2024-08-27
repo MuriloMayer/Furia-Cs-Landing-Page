@@ -8,6 +8,7 @@ import { HomeComponent } from './components/home/home.component';
 import { NewsComponent } from './components/news/news.component';
 import { ScheduleComponent } from './components/schedule/schedule.component';
 import { CustomDatePipe } from './custom-date.pipe';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { CustomDatePipe } from './custom-date.pipe';
     HomeComponent,
     ScheduleComponent,
     CustomDatePipe,
-    NewsComponent
+    NewsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule

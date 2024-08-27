@@ -13,6 +13,7 @@ export interface news {
   subTitle : string;
   date: Date;
   img: string;
+  link: string;
 }
 
 @Injectable({
@@ -26,14 +27,26 @@ export class BaseService {
       date: new Date(2024, 7, 21),
       subTitle:
         'Nesta quarta-feira (21), a FURIA no setor de periféricos. A organização fechou parceria com a Fallen Gear, marca brasileira de equipamentos gamer, para para produzir seus próprios produtos.',
-      img: 'assets/images/news/furia-fallengear.webp',   },
+      img: 'assets/images/news/furia-fallengear.webp',
+      link: 'https://draft5.gg/noticia/furia-fecha-parceria-com-a-fallen-gear-e-anuncia-entrada-no-setor-de-perifericos',},
       {
         title:
           'FURIA vira sobre Aurora para se manter viva na BetBoom Dacha Belgrade S2',
         date: new Date(2024, 7, 26),
         subTitle:
           'Brasileiros aguardam por 9 Pandas ou Eternal Fire para duelarem por vaga nos playoffs do torneio',
-        img: 'assets/images/news/fallen-wins.jpg'  },
+        img: 'assets/images/news/fallen-wins.jpg',
+      link: 'https://draft5.gg/partida/32040-Aurora-vs-FURIA-BetBoom-Dacha-Belgrade-2024-2',
+    },
+      {
+        title:
+          'FalleN celebra primeira vitória da FURIA na BetBoom Dacha: "Hoje conseguimos vencer sem jogar nosso melhor"',
+        date: new Date(2024, 7, 28),
+        subTitle:
+          'yuurih também falou sobre o desempenho coletivo e reconheceu "altos e baixos" no individual',
+        img: 'assets/images/news/FURIA-yuurih-IEM-Katowice-2022.webp',
+      link: 'https://draft5.gg/noticia/fallen-celebra-primeira-vitoria-da-furia-na-betboom-dacha-hoje-conseguimos-vencer-sem-jogar-nosso-melhor',
+    },
   ];
 
   mascGames: game[] = [
