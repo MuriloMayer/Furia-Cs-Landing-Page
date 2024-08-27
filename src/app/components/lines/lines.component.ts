@@ -24,8 +24,8 @@ export class LinesComponent implements OnInit {
   masc : {players : Profile[], coachs : Profile[] } = {
     players : [
     { firstName: 'Gabriel', lastName: 'Toledo',nickname : '"fallen"' , username: 'fallen', photo: 'assets/images/line-masc/fallen.webp', role: 'AWPer | IGL' },
-    { firstName: 'Marcelo', lastName: 'Cespedes', nickname: '"chelo"', username: 'cheloking', photo: 'assets/images/line-masc/chello.webp', role: 'Entry Fragger' },
-    { firstName: 'Yuri', lastName : 'Santos', nickname: '"yuurih"', username: 'yuurih', photo: 'assets/images/line-masc/yuurih.webp', role: 'Rifler' },
+    { firstName: 'Marcelo', lastName: 'Cespedes', nickname: '"chelo"', username: 'chelok1ng', photo: 'assets/images/line-masc/chello.webp', role: 'Entry Fragger' },
+    { firstName: 'Yuri', lastName : 'Santos', nickname: '"yuurih"', username: 'yuurihfps', photo: 'assets/images/line-masc/yuurih.webp', role: 'Rifler' },
     { firstName: 'Kaike', lastName: 'Cerato', nickname: '"KSCERATO"', username: 'kscerato', photo: 'assets/images/line-masc/kscerato.webp', role: 'Rifler' },
     { firstName: 'Felipe',lastName: 'Medeiros', nickname: '"skullz"', username: 'skullzcs', photo: 'assets/images/line-masc/skullz.webp', role: 'Rifler' },
     ],
