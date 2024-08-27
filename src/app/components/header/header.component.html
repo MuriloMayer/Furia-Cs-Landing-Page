@@ -4,10 +4,10 @@
   </div>
   <nav class="nav">
     <ul>
-      <li><a href="#" (click)="scrollTo('home')" [class.active]="currentCategory === 'home'">HOME</a></li>
-      <li><a href="#" (click)="scrollTo('schedule')" [class.active]="currentCategory === 'schedule'">AGENDA</a></li>
-      <li><a href="#" (click)="scrollTo('news')" [class.active]="currentCategory === 'news'">NOTÍCIAS</a></li>
-      <li><a href="#" (click)="scrollTo('lines')" [class.active]="currentCategory === 'lines'">LINES</a></li>
+      <li><a (click)="scrollTo('home')" [class.active]="currentCategory === 'home'">HOME</a></li>
+      <li><a (click)="scrollTo('schedule')" [class.active]="currentCategory === 'schedule'">AGENDA</a></li>
+      <li><a (click)="scrollTo('news')" [class.active]="currentCategory === 'news'">NOTÍCIAS</a></li>
+      <li><a (click)="scrollTo('lines')" [class.active]="currentCategory === 'lines'">LINES</a></li>
     </ul>
   </nav>
 </header>
